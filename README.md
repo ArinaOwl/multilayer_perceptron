@@ -1,7 +1,10 @@
 # Многослойный персептрон (Sloan Digital Sky Survey DR16)
 Курсовая работа по теме "Построение многослойной нейронной сети без обратных связей на нейронах с нелинейной функцией активации"
 
-## Предварительный анализ [DataAnalisys.ipynb](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/DataAnalisys.ipynb)
+## Предварительный анализ 
+
+[DataAnalisys.ipynb](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/DataAnalisys.ipynb)
+
 В качестве данных для обучения и демонстрации работы сети была выбрана база
 данных с сайта kaggle.com: [Sloan Digital Sky Survey DR16](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/data/Skyserver_12_30_2019%204_49_58%20PM.csv).
 
@@ -29,7 +32,9 @@
 
 ![scatter_matrix](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/scatter_matrix.png)
 
-## Анализ зависимости качества модели от гиперпараметров [MultilayerPerceptron.ipynb](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/MultilayerPerceptron.ipynb)
+## Анализ зависимости качества модели от гиперпараметров 
+
+[MultilayerPerceptron.ipynb](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/MultilayerPerceptron.ipynb)
 
 Исходная таблица с данными была поделена на три части: обучающую (train) 7000 строк, проверочную (validation) 3000 строк и тестовую (test) 90000 строк.
 
