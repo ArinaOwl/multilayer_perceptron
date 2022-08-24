@@ -53,8 +53,8 @@
 
 | Количество нейронов в скрытом слое ||
 |---|---|
-| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/hid.png" width="1000" /> | Оптимальным является 125 нейронов в одном скрытом слое, дальнейшее увеличение количества нейронов не приводит к значительному улучшению обучаемости сети. |
+| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/hid.png" width="800" /> | Оптимальным является 125 нейронов в одном скрытом слое, дальнейшее увеличение количества нейронов не приводит к значительному улучшению обучаемости сети. |
 
 | `Dropout(p)` ||
 |---|---|
-| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/dropout.png" width="1000" /> | Величина аргумента p функции отсеивания нейронов в слое Dropout(p) не влияет на характеристики обучаемости многослойной нейронной сети. |
+| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/dropout.png" width="600" /> | Величина аргумента p функции отсеивания нейронов в слое Dropout(p) не влияет на характеристики обучаемости многослойной нейронной сети. |
