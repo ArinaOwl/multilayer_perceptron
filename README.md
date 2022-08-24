@@ -29,11 +29,23 @@
 
 ![scatter_matrix](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/scatter_matrix.png)
 
-##Анализ зависимости качества модели от гиперпараметров
+## Анализ зависимости качества модели от гиперпараметров
 
 Исходная таблица с данными была поделена на три части: обучающую (train) 7000 строк, проверочную (validation) 3000 строк и тестовую (test) 90000 строк.
 
-Для сети, состоящей из трех скрытых слоев по 50 нейронов с функцией активации ReLU, за 20-30 эпох потери уменьшаются почти в 10 раз и выходят на насыщение.
+Для сети, состоящей из трех скрытых слоев по 50 нейронов с функцией активации ReLU, за 20-30 эпох:
+- потери уменьшаются почти в 10 раз и выходят на насыщение, 
+- точность выходит на уровень 95-97% правильно классифицированных объектов.
+
 | Loss | Accuracy |
 | --- | --- |
 | ![loss](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/loss.png) | ![acc](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/acc.png) |
+
+Были проведены исследования влияния на значения функции потерь: 
+- количества скрытых слоев нейронной сети, 
+- количества нейронов в одном слое, 
+- величины аргумента `p` функции отсеивания нейронов в слое `Dropout(p)`.
+
+| Количество скрытых слоев |
+| ![num_hid](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid.png) |  |
+| ![num_hid_min_loss](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid_min_loss.png) |  |
