@@ -48,6 +48,5 @@
 
 | Количество скрытых слоев ||
 |---|---|
-| ![num_hid](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid.png) |  |
-|---|---|
-| ![num_hid_min_loss](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid_min_loss.png) |  |
+| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid.png" width="200" /> | Нейронная сеть лучше и быстрее обучается, когда количество внутренних слоев равно 2. При дальнейшем увеличении количества скрытых слоев точность распознавания и скорость обучения немного уменьшаются, что связано с эффектом переобучения сети. |
+| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid_min_loss.png" width="200" /> | Оптимальное значение количества скрытых слоев  хорошо видно  по минимальному значению потерь. |
