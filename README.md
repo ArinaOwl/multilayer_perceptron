@@ -62,4 +62,4 @@
 
 | `Dropout(p)` ||
 |---|---|
-| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/dropout.png" width="600" /> | Величина аргумента p функции отсеивания нейронов в слое Dropout(p) не влияет на характеристики обучаемости многослойной нейронной сети. |
+| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/dropout.png" width="600" /> | Величина аргумента `p` функции отсеивания нейронов в слое `Dropout(p)` не влияет на характеристики обучаемости многослойной нейронной сети. |
