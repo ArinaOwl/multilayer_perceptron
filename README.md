@@ -50,3 +50,11 @@
 |---|---|
 | <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid.png" width="1000" /> | Нейронная сеть лучше и быстрее обучается, когда количество внутренних слоев равно 2. При дальнейшем увеличении количества скрытых слоев точность распознавания и скорость обучения немного уменьшаются, что связано с эффектом переобучения сети. |
 | <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid_min_loss.png" width="1000" /> | Оптимальное значение количества скрытых слоев  хорошо видно  по минимальному значению потерь. |
+
+| Количество нейронов в скрытом слое ||
+|---|---|
+| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/hid.png" width="1000" /> | Оптимальным является 125 нейронов в одном скрытом слое, дальнейшее увеличение количества нейронов не приводит к значительному улучшению обучаемости сети. |
+
+| `Dropout(p)` ||
+|---|---|
+| <img src="https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/dropout.png" width="1000" /> | Величина аргумента p функции отсеивания нейронов в слое Dropout(p) не влияет на характеристики обучаемости многослойной нейронной сети. |
