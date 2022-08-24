@@ -47,5 +47,7 @@
 - величины аргумента `p` функции отсеивания нейронов в слое `Dropout(p)`.
 
 | Количество скрытых слоев ||
+|---|---|
 | ![num_hid](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid.png) |  |
+|---|---|
 | ![num_hid_min_loss](https://github.com/ArinaOwl/multilayer_perceptron/blob/main/images/num_hid_min_loss.png) |  |
